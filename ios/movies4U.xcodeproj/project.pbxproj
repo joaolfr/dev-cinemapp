@@ -1,0 +1,858 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 54;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		00E356F31AD99517003FC87E /* movies4UTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 00E356F21AD99517003FC87E /* movies4UTests.m */; };
+		031389AB8652478D86BC3731 /* Montserrat-Italic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = FE5941C6C3734A96967745FA /* Montserrat-Italic.ttf */; };
+		0A80030E69BF4D428864BFD1 /* Futura-Light.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 01003A13960F46DF9177F617 /* Futura-Light.ttf */; };
+		12314C42E8D34AC1BDBB634B /* Futura-ExtraBackBT.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 38E1561D87EF4A08843A79AC /* Futura-ExtraBackBT.ttf */; };
+		13B07FBC1A68108700A75B9A /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB01A68108700A75B9A /* AppDelegate.m */; };
+		13B07FBF1A68108700A75B9A /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 13B07FB51A68108700A75B9A /* Images.xcassets */; };
+		13B07FC11A68108700A75B9A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB71A68108700A75B9A /* main.m */; };
+		14C19990064641A0AE592044 /* Futura-mediumBt.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 1DCF2C02DCB748F7B77238C8 /* Futura-mediumBt.ttf */; };
+		156191ED21F245F5853C4620 /* Montserrat-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 7BD36FB2DA8E43528104D234 /* Montserrat-Regular.ttf */; };
+		169C80F8A2664A9088AA6AD4 /* Futura-HeavyItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 4DF3C5F92B1C4E1C8DE830A8 /* Futura-HeavyItalic.ttf */; };
+		1E1D4EF3AD67426BB58257FB /* Montserrat-Light.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 72ECCD9B28964F058AC85D1E /* Montserrat-Light.ttf */; };
+		214A6B45B19C477CBD016186 /* Montserrat-LightItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 24CA88E0F70E4142AB54E904 /* Montserrat-LightItalic.ttf */; };
+		26A7FB4BDEC640D6A1623803 /* Montserrat-ExtraBoldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = BEF68AEE786A4CAF94A60AB9 /* Montserrat-ExtraBoldItalic.ttf */; };
+		2D5826AADB05425AB13CD084 /* Futura-LightBt.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 84ABA24A22724C69B6D5EC13 /* Futura-LightBt.ttf */; };
+		32FFFE0D684F471C83B115BD /* Futura-Heavy.ttf in Resources */ = {isa = PBXBuildFile; fileRef = CBFDA682710040EA8C185274 /* Futura-Heavy.ttf */; };
+		331A4764653C464AAFDC1031 /* Montserrat-ExtraLightItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 9D987B05715B435EBFF71C4B /* Montserrat-ExtraLightItalic.ttf */; };
+		3554D5C1D0A539B9B3C570BC /* libPods-movies4U.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 2844D99D7272457F47F3B635 /* libPods-movies4U.a */; };
+		3D5DBD15634C4E3ABEFBE685 /* Futura-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = D980AC35921D42759703C332 /* Futura-Bold.ttf */; };
+		53A6DDFAAA9C4615A970BD04 /* Montserrat-SemiBoldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = DFD7836FB3D3446885AAF77E /* Montserrat-SemiBoldItalic.ttf */; };
+		5489CE0DEEB04989A58C6D11 /* Futura-BoldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 14703614E33D40C8BAC0E91B /* Futura-BoldItalic.ttf */; };
+		628BA36D8B09495DB0CDA7DE /* Montserrat-ExtraBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 48A7E8D69FF14CC79FD49078 /* Montserrat-ExtraBold.ttf */; };
+		783C402F0374439899A9CFBD /* Montserrat-ThinItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 5B827AE493BA486F8AAA9A52 /* Montserrat-ThinItalic.ttf */; };
+		79230A9E670F4DA3A785E9C7 /* Montserrat-ExtraLight.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 53885B0F037641F483E0BB15 /* Montserrat-ExtraLight.ttf */; };
+		79D3A67179A042309EECCC21 /* Futura-Round.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 934E2C1433854920A5BB7361 /* Futura-Round.ttf */; };
+		7C848A770880428EAC0ED899 /* Futura-MediumItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 835DC3CCA06A4FF789F2CC70 /* Futura-MediumItalic.ttf */; };
+		81AB9BB82411601600AC10FF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */; };
+		938C85F75FE1455D83A605F1 /* Montserrat-BlackItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = A2EC5534E34A47E096608CE1 /* Montserrat-BlackItalic.ttf */; };
+		9AE0A83C0CAD4AC38E7D1D9D /* Futura-BookItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 8BEEDF28783C454A962D3733 /* Futura-BookItalic.ttf */; };
+		A1747D3471F34CE09BAD8A70 /* Montserrat-BoldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 893E444B28974F868CCB7650 /* Montserrat-BoldItalic.ttf */; };
+		AAA66A9964134E07BF5CB73F /* Montserrat-SemiBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = ADBA9F80EC8B431FB16FB14C /* Montserrat-SemiBold.ttf */; };
+		B63D14E0689C466B8D1AEEFA /* Montserrat-Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 40DB8C65E6AF4B24A5009745 /* Montserrat-Medium.ttf */; };
+		BAFA31C640B348FDAED738F0 /* Montserrat-Thin.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 8623536EABE34DAFB60B2172 /* Montserrat-Thin.ttf */; };
+		BE49C062D874432C91A190C6 /* Montserrat-Black.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 2DA3C1524CE24CD3BB0C3102 /* Montserrat-Black.ttf */; };
+		CE992788A17A0BE1E76C95FB /* libPods-movies4U-movies4UTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 6E513A0143B3BBC77E25C21C /* libPods-movies4U-movies4UTests.a */; };
+		D8E9C2FF351B4A98A981CBE1 /* Futura-ExtraBlack.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 01641285C443466780D9767B /* Futura-ExtraBlack.ttf */; };
+		DA16E80E0A5D4C9EA5567A60 /* Futura-Book.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 18370079264C47268A2AE218 /* Futura-Book.ttf */; };
+		E29824C35ADF4AE0A8DC639D /* Futura-LightItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = DE392633F72140A8A22313C0 /* Futura-LightItalic.ttf */; };
+		F1D61C2794F24DBDA08713B5 /* Montserrat-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 48B9931D9D534158BF2C1EF7 /* Montserrat-Bold.ttf */; };
+		FB2168ED9FA94E238B06AA93 /* Montserrat-MediumItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 4D7F30C15ECD4FE9A03910CB /* Montserrat-MediumItalic.ttf */; };
+		FF557AF0A60B469380EB329E /* Futura-MediumCondensedBt.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 13A1D3EEFF8946A3B7E7455F /* Futura-MediumCondensedBt.ttf */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		00E356F41AD99517003FC87E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 83CBB9F71A601CBA00E9B192 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 13B07F861A680F5B00A75B9A;
+			remoteInfo = movies4U;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		00758B01739444A985A95782 /* FontAwesome5_Regular.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = FontAwesome5_Regular.ttf; path = "../node_modules/react-native-vector-icons/Fonts/FontAwesome5_Regular.ttf"; sourceTree = "<group>"; };
+		00E356EE1AD99517003FC87E /* movies4UTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = movies4UTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		00E356F11AD99517003FC87E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		00E356F21AD99517003FC87E /* movies4UTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = movies4UTests.m; sourceTree = "<group>"; };
+		01003A13960F46DF9177F617 /* Futura-Light.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = "Futura-Light.ttf"; path = "../src/assets/fonts/Futura-Light.ttf"; sourceTree = "<group>"; };
+		01641285C443466780D9767B /* Futura-ExtraBlack.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = "Futura-ExtraBlack.ttf"; path = "../src/assets/fonts/Futura-ExtraBlack.ttf"; sourceTree = "<group>"; };
+		13A1D3EEFF8946A3B7E7455F /* Futura-MediumCondensedBt.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = "Futura-MediumCondensedBt.ttf"; path = "../src/assets/fonts/Futura-MediumCondensedBt.ttf"; sourceTree = "<group>"; };
+		13B07F961A680F5B00A75B9A /* movies4U.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = movies4U.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		13B07FAF1A68108700A75B9A /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AppDelegate.h; path = movies4U/AppDelegate.h; sourceTree = "<group>"; };
+		13B07FB01A68108700A75B9A /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = AppDelegate.m; path = movies4U/AppDelegate.m; sourceTree = "<group>"; };
+		13B07FB51A68108700A75B9A /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Images.xcassets; path = movies4U/Images.xcassets; sourceTree = "<group>"; };
+		13B07FB61A68108700A75B9A /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = Info.plist; path = movies4U/Info.plist; sourceTree = "<group>"; };
+		13B07FB71A68108700A75B9A /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = main.m; path = movies4U/main.m; sourceTree = "<group>"; };
+		14703614E33D40C8BAC0E91B /* Futura-BoldItalic.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = "Futura-BoldItalic.ttf"; path = "../src/assets/fonts/Futura-BoldItalic.ttf"; sourceTree = "<group>"; };
+		18370079264C47268A2AE218 /* Futura-Book.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = "Futura-Book.ttf"; path = "../src/assets/fonts/Futura-Book.ttf"; sourceTree = "<group>"; };
+		1DCF2C02DCB748F7B77238C8 /* Futura-mediumBt.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = "Futura-mediumBt.ttf"; path = "../src/assets/fonts/Futura-mediumBt.ttf"; sourceTree = "<group>"; };
+		24CA88E0F70E4142AB54E904 /* Montserrat-LightItalic.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = "Montserrat-LightItalic.ttf"; path = "../src/assets/fonts/Montserrat-LightItalic.ttf"; sourceTree = "<group>"; };
+		2844D99D7272457F47F3B635 /* libPods-movies4U.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-movies4U.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		2C4C9EFE5F65439288D3149E /* FontAwesome5_Solid.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = FontAwesome5_Solid.ttf; path = "../node_modules/react-native-vector-icons/Fonts/FontAwesome5_Solid.ttf"; sourceTree = "<group>"; };
+		2DA3C1524CE24CD3BB0C3102 /* Montserrat-Black.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = "Montserrat-Black.ttf"; path = "../src/assets/fonts/Montserrat-Black.ttf"; sourceTree = "<group>"; };
+		37FB8174B1A39DAA0A98B3DA /* Pods-movies4U-movies4UTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-movies4U-movies4UTests.debug.xcconfig"; path = "Target Support Files/Pods-movies4U-movies4UTests/Pods-movies4U-movies4UTests.debug.xcconfig"; sourceTree = "<group>"; };
+		38E1561D87EF4A08843A79AC /* Futura-ExtraBackBT.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = "Futura-ExtraBackBT.ttf"; path = "../src/assets/fonts/Futura-ExtraBackBT.ttf"; sourceTree = "<group>"; };
+		40DB8C65E6AF4B24A5009745 /* Montserrat-Medium.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = "Montserrat-Medium.ttf"; path = "../src/assets/fonts/Montserrat-Medium.ttf"; sourceTree = "<group>"; };
+		48A7E8D69FF14CC79FD49078 /* Montserrat-ExtraBold.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = "Montserrat-ExtraBold.ttf"; path = "../src/assets/fonts/Montserrat-ExtraBold.ttf"; sourceTree = "<group>"; };
+		48B9931D9D534158BF2C1EF7 /* Montserrat-Bold.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = "Montserrat-Bold.ttf"; path = "../src/assets/fonts/Montserrat-Bold.ttf"; sourceTree = "<group>"; };
+		4D7F30C15ECD4FE9A03910CB /* Montserrat-MediumItalic.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = "Montserrat-MediumItalic.ttf"; path = "../src/assets/fonts/Montserrat-MediumItalic.ttf"; sourceTree = "<group>"; };
+		4DF3C5F92B1C4E1C8DE830A8 /* Futura-HeavyItalic.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = "Futura-HeavyItalic.ttf"; path = "../src/assets/fonts/Futura-HeavyItalic.ttf"; sourceTree = "<group>"; };
+		53885B0F037641F483E0BB15 /* Montserrat-ExtraLight.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = "Montserrat-ExtraLight.ttf"; path = "../src/assets/fonts/Montserrat-ExtraLight.ttf"; sourceTree = "<group>"; };
+		56E10BF4F1744C4FB0B7980C /* Fontisto.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = Fontisto.ttf; path = "../node_modules/react-native-vector-icons/Fonts/Fontisto.ttf"; sourceTree = "<group>"; };
+		585988FA81E34FF79B92F21B /* FontAwesome5_Brands.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = FontAwesome5_Brands.ttf; path = "../node_modules/react-native-vector-icons/Fonts/FontAwesome5_Brands.ttf"; sourceTree = "<group>"; };
+		5B827AE493BA486F8AAA9A52 /* Montserrat-ThinItalic.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = "Montserrat-ThinItalic.ttf"; path = "../src/assets/fonts/Montserrat-ThinItalic.ttf"; sourceTree = "<group>"; };
+		5F0040BF16124B1E89FAA12F /* Feather.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = Feather.ttf; path = "../node_modules/react-native-vector-icons/Fonts/Feather.ttf"; sourceTree = "<group>"; };
+		6D560D39C25C468D9769AF28 /* EvilIcons.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = EvilIcons.ttf; path = "../node_modules/react-native-vector-icons/Fonts/EvilIcons.ttf"; sourceTree = "<group>"; };
+		6E513A0143B3BBC77E25C21C /* libPods-movies4U-movies4UTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-movies4U-movies4UTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		72ECCD9B28964F058AC85D1E /* Montserrat-Light.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = "Montserrat-Light.ttf"; path = "../src/assets/fonts/Montserrat-Light.ttf"; sourceTree = "<group>"; };
+		72FD75328B8B4877BE9B338C /* MaterialIcons.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = MaterialIcons.ttf; path = "../node_modules/react-native-vector-icons/Fonts/MaterialIcons.ttf"; sourceTree = "<group>"; };
+		775E1A35EA094196897C2E3C /* Octicons.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = Octicons.ttf; path = "../node_modules/react-native-vector-icons/Fonts/Octicons.ttf"; sourceTree = "<group>"; };
+		7BD36FB2DA8E43528104D234 /* Montserrat-Regular.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = "Montserrat-Regular.ttf"; path = "../src/assets/fonts/Montserrat-Regular.ttf"; sourceTree = "<group>"; };
+		81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = LaunchScreen.storyboard; path = movies4U/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		835DC3CCA06A4FF789F2CC70 /* Futura-MediumItalic.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = "Futura-MediumItalic.ttf"; path = "../src/assets/fonts/Futura-MediumItalic.ttf"; sourceTree = "<group>"; };
+		84ABA24A22724C69B6D5EC13 /* Futura-LightBt.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = "Futura-LightBt.ttf"; path = "../src/assets/fonts/Futura-LightBt.ttf"; sourceTree = "<group>"; };
+		8623536EABE34DAFB60B2172 /* Montserrat-Thin.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = "Montserrat-Thin.ttf"; path = "../src/assets/fonts/Montserrat-Thin.ttf"; sourceTree = "<group>"; };
+		893E444B28974F868CCB7650 /* Montserrat-BoldItalic.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = "Montserrat-BoldItalic.ttf"; path = "../src/assets/fonts/Montserrat-BoldItalic.ttf"; sourceTree = "<group>"; };
+		89618EBC38154CEFBD799F9A /* Entypo.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = Entypo.ttf; path = "../node_modules/react-native-vector-icons/Fonts/Entypo.ttf"; sourceTree = "<group>"; };
+		8BEEDF28783C454A962D3733 /* Futura-BookItalic.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = "Futura-BookItalic.ttf"; path = "../src/assets/fonts/Futura-BookItalic.ttf"; sourceTree = "<group>"; };
+		934E2C1433854920A5BB7361 /* Futura-Round.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = "Futura-Round.ttf"; path = "../src/assets/fonts/Futura-Round.ttf"; sourceTree = "<group>"; };
+		9D987B05715B435EBFF71C4B /* Montserrat-ExtraLightItalic.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = "Montserrat-ExtraLightItalic.ttf"; path = "../src/assets/fonts/Montserrat-ExtraLightItalic.ttf"; sourceTree = "<group>"; };
+		A2EC5534E34A47E096608CE1 /* Montserrat-BlackItalic.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = "Montserrat-BlackItalic.ttf"; path = "../src/assets/fonts/Montserrat-BlackItalic.ttf"; sourceTree = "<group>"; };
+		A490967D63344A28B5B51AB8 /* FontAwesome.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = FontAwesome.ttf; path = "../node_modules/react-native-vector-icons/Fonts/FontAwesome.ttf"; sourceTree = "<group>"; };
+		ADBA9F80EC8B431FB16FB14C /* Montserrat-SemiBold.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = "Montserrat-SemiBold.ttf"; path = "../src/assets/fonts/Montserrat-SemiBold.ttf"; sourceTree = "<group>"; };
+		B4CD55C6B4BCBCA7EE67AAB0 /* Pods-movies4U-movies4UTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-movies4U-movies4UTests.release.xcconfig"; path = "Target Support Files/Pods-movies4U-movies4UTests/Pods-movies4U-movies4UTests.release.xcconfig"; sourceTree = "<group>"; };
+		B4E9FB59B9CEA3E56BED41D0 /* Pods-movies4U.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-movies4U.debug.xcconfig"; path = "Target Support Files/Pods-movies4U/Pods-movies4U.debug.xcconfig"; sourceTree = "<group>"; };
+		BEF68AEE786A4CAF94A60AB9 /* Montserrat-ExtraBoldItalic.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = "Montserrat-ExtraBoldItalic.ttf"; path = "../src/assets/fonts/Montserrat-ExtraBoldItalic.ttf"; sourceTree = "<group>"; };
+		CBFDA682710040EA8C185274 /* Futura-Heavy.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = "Futura-Heavy.ttf"; path = "../src/assets/fonts/Futura-Heavy.ttf"; sourceTree = "<group>"; };
+		CD1B68F6F463A0D81EBFC4EF /* Pods-movies4U.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-movies4U.release.xcconfig"; path = "Target Support Files/Pods-movies4U/Pods-movies4U.release.xcconfig"; sourceTree = "<group>"; };
+		D48B2ED73C694BB8893A8B8A /* AntDesign.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = AntDesign.ttf; path = "../node_modules/react-native-vector-icons/Fonts/AntDesign.ttf"; sourceTree = "<group>"; };
+		D980AC35921D42759703C332 /* Futura-Bold.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = "Futura-Bold.ttf"; path = "../src/assets/fonts/Futura-Bold.ttf"; sourceTree = "<group>"; };
+		DD1FE262148D4CD3B37BAE3F /* Zocial.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = Zocial.ttf; path = "../node_modules/react-native-vector-icons/Fonts/Zocial.ttf"; sourceTree = "<group>"; };
+		DE392633F72140A8A22313C0 /* Futura-LightItalic.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = "Futura-LightItalic.ttf"; path = "../src/assets/fonts/Futura-LightItalic.ttf"; sourceTree = "<group>"; };
+		DFD7836FB3D3446885AAF77E /* Montserrat-SemiBoldItalic.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = "Montserrat-SemiBoldItalic.ttf"; path = "../src/assets/fonts/Montserrat-SemiBoldItalic.ttf"; sourceTree = "<group>"; };
+		EBC4AF8823C34066ADF88CFC /* MaterialCommunityIcons.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = MaterialCommunityIcons.ttf; path = "../node_modules/react-native-vector-icons/Fonts/MaterialCommunityIcons.ttf"; sourceTree = "<group>"; };
+		ED297162215061F000B7C4FE /* JavaScriptCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JavaScriptCore.framework; path = System/Library/Frameworks/JavaScriptCore.framework; sourceTree = SDKROOT; };
+		F24004C0158A4C83AD41E1B7 /* Ionicons.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = Ionicons.ttf; path = "../node_modules/react-native-vector-icons/Fonts/Ionicons.ttf"; sourceTree = "<group>"; };
+		F764B84163214B5C9898762E /* Foundation.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = Foundation.ttf; path = "../node_modules/react-native-vector-icons/Fonts/Foundation.ttf"; sourceTree = "<group>"; };
+		F9721B17879B477FA173A532 /* SimpleLineIcons.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = SimpleLineIcons.ttf; path = "../node_modules/react-native-vector-icons/Fonts/SimpleLineIcons.ttf"; sourceTree = "<group>"; };
+		FE5941C6C3734A96967745FA /* Montserrat-Italic.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = "Montserrat-Italic.ttf"; path = "../src/assets/fonts/Montserrat-Italic.ttf"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		00E356EB1AD99517003FC87E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CE992788A17A0BE1E76C95FB /* libPods-movies4U-movies4UTests.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		13B07F8C1A680F5B00A75B9A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3554D5C1D0A539B9B3C570BC /* libPods-movies4U.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		00E356EF1AD99517003FC87E /* movies4UTests */ = {
+			isa = PBXGroup;
+			children = (
+				00E356F21AD99517003FC87E /* movies4UTests.m */,
+				00E356F01AD99517003FC87E /* Supporting Files */,
+			);
+			path = movies4UTests;
+			sourceTree = "<group>";
+		};
+		00E356F01AD99517003FC87E /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				00E356F11AD99517003FC87E /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		13B07FAE1A68108700A75B9A /* movies4U */ = {
+			isa = PBXGroup;
+			children = (
+				13B07FAF1A68108700A75B9A /* AppDelegate.h */,
+				13B07FB01A68108700A75B9A /* AppDelegate.m */,
+				13B07FB51A68108700A75B9A /* Images.xcassets */,
+				13B07FB61A68108700A75B9A /* Info.plist */,
+				81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */,
+				13B07FB71A68108700A75B9A /* main.m */,
+			);
+			name = movies4U;
+			sourceTree = "<group>";
+		};
+		2D16E6871FA4F8E400B85C8A /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				ED297162215061F000B7C4FE /* JavaScriptCore.framework */,
+				2844D99D7272457F47F3B635 /* libPods-movies4U.a */,
+				6E513A0143B3BBC77E25C21C /* libPods-movies4U-movies4UTests.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		76627035128F0D955F7192FE /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				B4E9FB59B9CEA3E56BED41D0 /* Pods-movies4U.debug.xcconfig */,
+				CD1B68F6F463A0D81EBFC4EF /* Pods-movies4U.release.xcconfig */,
+				37FB8174B1A39DAA0A98B3DA /* Pods-movies4U-movies4UTests.debug.xcconfig */,
+				B4CD55C6B4BCBCA7EE67AAB0 /* Pods-movies4U-movies4UTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		832341AE1AAA6A7D00B99B32 /* Libraries */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Libraries;
+			sourceTree = "<group>";
+		};
+		83CBB9F61A601CBA00E9B192 = {
+			isa = PBXGroup;
+			children = (
+				13B07FAE1A68108700A75B9A /* movies4U */,
+				832341AE1AAA6A7D00B99B32 /* Libraries */,
+				00E356EF1AD99517003FC87E /* movies4UTests */,
+				83CBBA001A601CBA00E9B192 /* Products */,
+				2D16E6871FA4F8E400B85C8A /* Frameworks */,
+				76627035128F0D955F7192FE /* Pods */,
+				89106E1E3D954B458370B3F5 /* Resources */,
+			);
+			indentWidth = 2;
+			sourceTree = "<group>";
+			tabWidth = 2;
+			usesTabs = 0;
+		};
+		83CBBA001A601CBA00E9B192 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				13B07F961A680F5B00A75B9A /* movies4U.app */,
+				00E356EE1AD99517003FC87E /* movies4UTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		89106E1E3D954B458370B3F5 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				D48B2ED73C694BB8893A8B8A /* AntDesign.ttf */,
+				89618EBC38154CEFBD799F9A /* Entypo.ttf */,
+				6D560D39C25C468D9769AF28 /* EvilIcons.ttf */,
+				5F0040BF16124B1E89FAA12F /* Feather.ttf */,
+				A490967D63344A28B5B51AB8 /* FontAwesome.ttf */,
+				585988FA81E34FF79B92F21B /* FontAwesome5_Brands.ttf */,
+				00758B01739444A985A95782 /* FontAwesome5_Regular.ttf */,
+				2C4C9EFE5F65439288D3149E /* FontAwesome5_Solid.ttf */,
+				56E10BF4F1744C4FB0B7980C /* Fontisto.ttf */,
+				F764B84163214B5C9898762E /* Foundation.ttf */,
+				F24004C0158A4C83AD41E1B7 /* Ionicons.ttf */,
+				EBC4AF8823C34066ADF88CFC /* MaterialCommunityIcons.ttf */,
+				72FD75328B8B4877BE9B338C /* MaterialIcons.ttf */,
+				775E1A35EA094196897C2E3C /* Octicons.ttf */,
+				F9721B17879B477FA173A532 /* SimpleLineIcons.ttf */,
+				DD1FE262148D4CD3B37BAE3F /* Zocial.ttf */,
+				D980AC35921D42759703C332 /* Futura-Bold.ttf */,
+				14703614E33D40C8BAC0E91B /* Futura-BoldItalic.ttf */,
+				18370079264C47268A2AE218 /* Futura-Book.ttf */,
+				8BEEDF28783C454A962D3733 /* Futura-BookItalic.ttf */,
+				38E1561D87EF4A08843A79AC /* Futura-ExtraBackBT.ttf */,
+				01641285C443466780D9767B /* Futura-ExtraBlack.ttf */,
+				CBFDA682710040EA8C185274 /* Futura-Heavy.ttf */,
+				4DF3C5F92B1C4E1C8DE830A8 /* Futura-HeavyItalic.ttf */,
+				01003A13960F46DF9177F617 /* Futura-Light.ttf */,
+				84ABA24A22724C69B6D5EC13 /* Futura-LightBt.ttf */,
+				DE392633F72140A8A22313C0 /* Futura-LightItalic.ttf */,
+				1DCF2C02DCB748F7B77238C8 /* Futura-mediumBt.ttf */,
+				13A1D3EEFF8946A3B7E7455F /* Futura-MediumCondensedBt.ttf */,
+				835DC3CCA06A4FF789F2CC70 /* Futura-MediumItalic.ttf */,
+				934E2C1433854920A5BB7361 /* Futura-Round.ttf */,
+				2DA3C1524CE24CD3BB0C3102 /* Montserrat-Black.ttf */,
+				A2EC5534E34A47E096608CE1 /* Montserrat-BlackItalic.ttf */,
+				48B9931D9D534158BF2C1EF7 /* Montserrat-Bold.ttf */,
+				893E444B28974F868CCB7650 /* Montserrat-BoldItalic.ttf */,
+				48A7E8D69FF14CC79FD49078 /* Montserrat-ExtraBold.ttf */,
+				BEF68AEE786A4CAF94A60AB9 /* Montserrat-ExtraBoldItalic.ttf */,
+				53885B0F037641F483E0BB15 /* Montserrat-ExtraLight.ttf */,
+				9D987B05715B435EBFF71C4B /* Montserrat-ExtraLightItalic.ttf */,
+				FE5941C6C3734A96967745FA /* Montserrat-Italic.ttf */,
+				72ECCD9B28964F058AC85D1E /* Montserrat-Light.ttf */,
+				24CA88E0F70E4142AB54E904 /* Montserrat-LightItalic.ttf */,
+				40DB8C65E6AF4B24A5009745 /* Montserrat-Medium.ttf */,
+				4D7F30C15ECD4FE9A03910CB /* Montserrat-MediumItalic.ttf */,
+				7BD36FB2DA8E43528104D234 /* Montserrat-Regular.ttf */,
+				ADBA9F80EC8B431FB16FB14C /* Montserrat-SemiBold.ttf */,
+				DFD7836FB3D3446885AAF77E /* Montserrat-SemiBoldItalic.ttf */,
+				8623536EABE34DAFB60B2172 /* Montserrat-Thin.ttf */,
+				5B827AE493BA486F8AAA9A52 /* Montserrat-ThinItalic.ttf */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		00E356ED1AD99517003FC87E /* movies4UTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 00E357021AD99517003FC87E /* Build configuration list for PBXNativeTarget "movies4UTests" */;
+			buildPhases = (
+				79BBE8FE0DB0B694A426FF31 /* [CP] Check Pods Manifest.lock */,
+				00E356EA1AD99517003FC87E /* Sources */,
+				00E356EB1AD99517003FC87E /* Frameworks */,
+				00E356EC1AD99517003FC87E /* Resources */,
+				72F051DD27D11853287D2956 /* [CP] Embed Pods Frameworks */,
+				7853EC6249B7C82E583B87D5 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				00E356F51AD99517003FC87E /* PBXTargetDependency */,
+			);
+			name = movies4UTests;
+			productName = movies4UTests;
+			productReference = 00E356EE1AD99517003FC87E /* movies4UTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		13B07F861A680F5B00A75B9A /* movies4U */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 13B07F931A680F5B00A75B9A /* Build configuration list for PBXNativeTarget "movies4U" */;
+			buildPhases = (
+				40D6818BCBB0DC24CA743F5A /* [CP] Check Pods Manifest.lock */,
+				FD10A7F022414F080027D42C /* Start Packager */,
+				13B07F871A680F5B00A75B9A /* Sources */,
+				13B07F8C1A680F5B00A75B9A /* Frameworks */,
+				13B07F8E1A680F5B00A75B9A /* Resources */,
+				00DD1BFF1BD5951E006B06BC /* Bundle React Native code and images */,
+				F96801C2DDE39DDA8F2EC193 /* [CP] Embed Pods Frameworks */,
+				DA45884966B096B9D735E6B4 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = movies4U;
+			productName = movies4U;
+			productReference = 13B07F961A680F5B00A75B9A /* movies4U.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		83CBB9F71A601CBA00E9B192 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1210;
+				TargetAttributes = {
+					00E356ED1AD99517003FC87E = {
+						CreatedOnToolsVersion = 6.2;
+						TestTargetID = 13B07F861A680F5B00A75B9A;
+					};
+					13B07F861A680F5B00A75B9A = {
+						LastSwiftMigration = 1120;
+					};
+				};
+			};
+			buildConfigurationList = 83CBB9FA1A601CBA00E9B192 /* Build configuration list for PBXProject "movies4U" */;
+			compatibilityVersion = "Xcode 12.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 83CBB9F61A601CBA00E9B192;
+			productRefGroup = 83CBBA001A601CBA00E9B192 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				13B07F861A680F5B00A75B9A /* movies4U */,
+				00E356ED1AD99517003FC87E /* movies4UTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		00E356EC1AD99517003FC87E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		13B07F8E1A680F5B00A75B9A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				81AB9BB82411601600AC10FF /* LaunchScreen.storyboard in Resources */,
+				13B07FBF1A68108700A75B9A /* Images.xcassets in Resources */,
+				3D5DBD15634C4E3ABEFBE685 /* Futura-Bold.ttf in Resources */,
+				5489CE0DEEB04989A58C6D11 /* Futura-BoldItalic.ttf in Resources */,
+				DA16E80E0A5D4C9EA5567A60 /* Futura-Book.ttf in Resources */,
+				9AE0A83C0CAD4AC38E7D1D9D /* Futura-BookItalic.ttf in Resources */,
+				12314C42E8D34AC1BDBB634B /* Futura-ExtraBackBT.ttf in Resources */,
+				D8E9C2FF351B4A98A981CBE1 /* Futura-ExtraBlack.ttf in Resources */,
+				32FFFE0D684F471C83B115BD /* Futura-Heavy.ttf in Resources */,
+				169C80F8A2664A9088AA6AD4 /* Futura-HeavyItalic.ttf in Resources */,
+				0A80030E69BF4D428864BFD1 /* Futura-Light.ttf in Resources */,
+				2D5826AADB05425AB13CD084 /* Futura-LightBt.ttf in Resources */,
+				E29824C35ADF4AE0A8DC639D /* Futura-LightItalic.ttf in Resources */,
+				14C19990064641A0AE592044 /* Futura-mediumBt.ttf in Resources */,
+				FF557AF0A60B469380EB329E /* Futura-MediumCondensedBt.ttf in Resources */,
+				7C848A770880428EAC0ED899 /* Futura-MediumItalic.ttf in Resources */,
+				79D3A67179A042309EECCC21 /* Futura-Round.ttf in Resources */,
+				BE49C062D874432C91A190C6 /* Montserrat-Black.ttf in Resources */,
+				938C85F75FE1455D83A605F1 /* Montserrat-BlackItalic.ttf in Resources */,
+				F1D61C2794F24DBDA08713B5 /* Montserrat-Bold.ttf in Resources */,
+				A1747D3471F34CE09BAD8A70 /* Montserrat-BoldItalic.ttf in Resources */,
+				628BA36D8B09495DB0CDA7DE /* Montserrat-ExtraBold.ttf in Resources */,
+				26A7FB4BDEC640D6A1623803 /* Montserrat-ExtraBoldItalic.ttf in Resources */,
+				79230A9E670F4DA3A785E9C7 /* Montserrat-ExtraLight.ttf in Resources */,
+				331A4764653C464AAFDC1031 /* Montserrat-ExtraLightItalic.ttf in Resources */,
+				031389AB8652478D86BC3731 /* Montserrat-Italic.ttf in Resources */,
+				1E1D4EF3AD67426BB58257FB /* Montserrat-Light.ttf in Resources */,
+				214A6B45B19C477CBD016186 /* Montserrat-LightItalic.ttf in Resources */,
+				B63D14E0689C466B8D1AEEFA /* Montserrat-Medium.ttf in Resources */,
+				FB2168ED9FA94E238B06AA93 /* Montserrat-MediumItalic.ttf in Resources */,
+				156191ED21F245F5853C4620 /* Montserrat-Regular.ttf in Resources */,
+				AAA66A9964134E07BF5CB73F /* Montserrat-SemiBold.ttf in Resources */,
+				53A6DDFAAA9C4615A970BD04 /* Montserrat-SemiBoldItalic.ttf in Resources */,
+				BAFA31C640B348FDAED738F0 /* Montserrat-Thin.ttf in Resources */,
+				783C402F0374439899A9CFBD /* Montserrat-ThinItalic.ttf in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		00DD1BFF1BD5951E006B06BC /* Bundle React Native code and images */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Bundle React Native code and images";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "set -e\n\nexport NODE_BINARY=node\n../node_modules/react-native/scripts/react-native-xcode.sh\n";
+		};
+		40D6818BCBB0DC24CA743F5A /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-movies4U-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		72F051DD27D11853287D2956 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-movies4U-movies4UTests/Pods-movies4U-movies4UTests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-movies4U-movies4UTests/Pods-movies4U-movies4UTests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-movies4U-movies4UTests/Pods-movies4U-movies4UTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		7853EC6249B7C82E583B87D5 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-movies4U-movies4UTests/Pods-movies4U-movies4UTests-resources-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-movies4U-movies4UTests/Pods-movies4U-movies4UTests-resources-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-movies4U-movies4UTests/Pods-movies4U-movies4UTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		79BBE8FE0DB0B694A426FF31 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-movies4U-movies4UTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		DA45884966B096B9D735E6B4 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-movies4U/Pods-movies4U-resources-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-movies4U/Pods-movies4U-resources-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-movies4U/Pods-movies4U-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F96801C2DDE39DDA8F2EC193 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-movies4U/Pods-movies4U-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-movies4U/Pods-movies4U-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-movies4U/Pods-movies4U-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		FD10A7F022414F080027D42C /* Start Packager */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+			);
+			name = "Start Packager";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "export RCT_METRO_PORT=\"${RCT_METRO_PORT:=8081}\"\necho \"export RCT_METRO_PORT=${RCT_METRO_PORT}\" > \"${SRCROOT}/../node_modules/react-native/scripts/.packager.env\"\nif [ -z \"${RCT_NO_LAUNCH_PACKAGER+xxx}\" ] ; then\n  if nc -w 5 -z localhost ${RCT_METRO_PORT} ; then\n    if ! curl -s \"http://localhost:${RCT_METRO_PORT}/status\" | grep -q \"packager-status:running\" ; then\n      echo \"Port ${RCT_METRO_PORT} already in use, packager is either not running or not running correctly\"\n      exit 2\n    fi\n  else\n    open \"$SRCROOT/../node_modules/react-native/scripts/launchPackager.command\" || echo \"Can't start packager automatically\"\n  fi\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		00E356EA1AD99517003FC87E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				00E356F31AD99517003FC87E /* movies4UTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		13B07F871A680F5B00A75B9A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				13B07FBC1A68108700A75B9A /* AppDelegate.m in Sources */,
+				13B07FC11A68108700A75B9A /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		00E356F51AD99517003FC87E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 13B07F861A680F5B00A75B9A /* movies4U */;
+			targetProxy = 00E356F41AD99517003FC87E /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		00E356F61AD99517003FC87E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 37FB8174B1A39DAA0A98B3DA /* Pods-movies4U-movies4UTests.debug.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = movies4UTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				OTHER_LDFLAGS = (
+					"-ObjC",
+					"-lc++",
+					"$(inherited)",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "org.reactjs.native.example.$(PRODUCT_NAME:rfc1034identifier)";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/movies4U.app/movies4U";
+			};
+			name = Debug;
+		};
+		00E356F71AD99517003FC87E /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B4CD55C6B4BCBCA7EE67AAB0 /* Pods-movies4U-movies4UTests.release.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				COPY_PHASE_STRIP = NO;
+				INFOPLIST_FILE = movies4UTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				OTHER_LDFLAGS = (
+					"-ObjC",
+					"-lc++",
+					"$(inherited)",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "org.reactjs.native.example.$(PRODUCT_NAME:rfc1034identifier)";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/movies4U.app/movies4U";
+			};
+			name = Release;
+		};
+		13B07F941A680F5B00A75B9A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B4E9FB59B9CEA3E56BED41D0 /* Pods-movies4U.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				ENABLE_BITCODE = NO;
+				INFOPLIST_FILE = movies4U/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					"-ObjC",
+					"-lc++",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "org.reactjs.native.example.$(PRODUCT_NAME:rfc1034identifier)";
+				PRODUCT_NAME = movies4U;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				VERSIONING_SYSTEM = "apple-generic";
+			};
+			name = Debug;
+		};
+		13B07F951A680F5B00A75B9A /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = CD1B68F6F463A0D81EBFC4EF /* Pods-movies4U.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				INFOPLIST_FILE = movies4U/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					"-ObjC",
+					"-lc++",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "org.reactjs.native.example.$(PRODUCT_NAME:rfc1034identifier)";
+				PRODUCT_NAME = movies4U;
+				SWIFT_VERSION = 5.0;
+				VERSIONING_SYSTEM = "apple-generic";
+			};
+			name = Release;
+		};
+		83CBBA201A601CBA00E9B192 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				"EXCLUDED_ARCHS[sdk=iphonesimulator*]" = "arm64 ";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					/usr/lib/swift,
+					"$(inherited)",
+				);
+				LIBRARY_SEARCH_PATHS = (
+					"\"$(TOOLCHAIN_DIR)/usr/lib/swift/$(PLATFORM_NAME)\"",
+					"\"$(TOOLCHAIN_DIR)/usr/lib/swift-5.0/$(PLATFORM_NAME)\"",
+					"\"$(inherited)\"",
+				);
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		83CBBA211A601CBA00E9B192 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				"EXCLUDED_ARCHS[sdk=iphonesimulator*]" = "arm64 ";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					/usr/lib/swift,
+					"$(inherited)",
+				);
+				LIBRARY_SEARCH_PATHS = (
+					"\"$(TOOLCHAIN_DIR)/usr/lib/swift/$(PLATFORM_NAME)\"",
+					"\"$(TOOLCHAIN_DIR)/usr/lib/swift-5.0/$(PLATFORM_NAME)\"",
+					"\"$(inherited)\"",
+				);
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		00E357021AD99517003FC87E /* Build configuration list for PBXNativeTarget "movies4UTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				00E356F61AD99517003FC87E /* Debug */,
+				00E356F71AD99517003FC87E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		13B07F931A680F5B00A75B9A /* Build configuration list for PBXNativeTarget "movies4U" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				13B07F941A680F5B00A75B9A /* Debug */,
+				13B07F951A680F5B00A75B9A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		83CBB9FA1A601CBA00E9B192 /* Build configuration list for PBXProject "movies4U" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				83CBBA201A601CBA00E9B192 /* Debug */,
+				83CBBA211A601CBA00E9B192 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 83CBB9F71A601CBA00E9B192 /* Project object */;
+}
