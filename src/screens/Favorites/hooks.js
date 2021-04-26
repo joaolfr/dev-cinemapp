@@ -1,9 +1,13 @@
-import {useCallback, useState} from 'react';
+import {useState} from 'react';
 import {useMoviesStore} from '../../stores';
 import {getMovies} from '../../api/movies';
-import axios from 'axios';
 
 export default () => {
+  //states
+  const [isModalVisible, setModalVisible] = useState(false);
+  const [current, setCurrent] = useState({});
+
+  //imported variables
   const {loadMovieDetail, loading} = getMovies();
 
   const {
@@ -14,9 +18,7 @@ export default () => {
     setFavoritesIds,
   } = useMoviesStore();
 
-  const [isModalVisible, setModalVisible] = useState(false);
-  const [current, setCurrent] = useState({});
-
+  //functions
   const toggleModal = () => {
     setModalVisible(!isModalVisible);
   };
@@ -42,6 +44,7 @@ export default () => {
     setFavorites(arr);
     setFavoritesIds(list);
   };
+
   return {
     movies,
     loadMovieDetail,

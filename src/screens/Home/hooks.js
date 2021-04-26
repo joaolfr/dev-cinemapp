@@ -4,8 +4,13 @@ import {getMovies} from '../../api/movies';
 import axios from 'axios';
 
 export default () => {
-  const {loadMovieDetail, loading} = getMovies();
+  //state variables
+  const [isModalVisible, setModalVisible] = useState(false);
+  const [current, setCurrent] = useState({});
+  const [searchString, setSearchString] = useState('');
 
+  //imported variables
+  const {loadMovieDetail, loading} = getMovies();
   const {
     movies,
     setFavorites,
@@ -14,9 +19,7 @@ export default () => {
     setFavoritesIds,
   } = useMoviesStore();
 
-  const [isModalVisible, setModalVisible] = useState(false);
-  const [current, setCurrent] = useState({});
-  const [searchString, setSearchString] = useState('');
+  //functions
   const toggleModal = () => {
     setModalVisible(!isModalVisible);
   };
@@ -39,8 +42,7 @@ export default () => {
       arr.push(movieObj);
       list.push(movieObj.imdbID);
     }
-    console.log('ids list: ', list);
-    console.log('movies list: ', arr);
+
     setFavoritesIds(list);
     setFavorites(arr);
   };

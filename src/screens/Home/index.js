@@ -1,35 +1,13 @@
-import React, {useEffect, useState} from 'react';
-import {
-  ScrollView,
-  Image,
-  ActivityIndicator,
-  TouchableOpacity,
-  View,
-  SafeAreaView,
-  Button,
-  TextInput,
-} from 'react-native';
+import React, {useEffect} from 'react';
+import {ActivityIndicator, View} from 'react-native';
 import useHome from './hooks';
-import {Text, MovieModal} from '../../components/UI';
-import {MovieCard} from '../../components/Home';
-import {
-  Container,
-  HeaderTitle,
-  SearchButton,
-  MovieInput,
-  ButtonTxt,
-  MoviesView,
-  InputWrapper,
-  ClearSearchButton,
-  ClearText,
-  LoadingWrapper,
-  LoadingText,
-} from './styles';
+import {MovieModal} from '../../components/UI';
+import {MovieCard, Header} from '../../components/Home';
+import {Container, MoviesView, LoadingWrapper, LoadingText} from './styles';
 
 const Home = () => {
   const {
     movies,
-    loadMovieDetail,
     loading,
     changeFavorites,
     isModalVisible,
@@ -39,7 +17,6 @@ const Home = () => {
     setCurrentMovie,
     current,
     searchMovie,
-    favorites,
     favoritesIds,
   } = useHome();
   useEffect(() => {
@@ -48,21 +25,11 @@ const Home = () => {
 
   return (
     <Container>
-      <HeaderTitle>Tá afim de assistir o quê hoje?</HeaderTitle>
-      <InputWrapper>
-        <MovieInput
-          placeholder="Digite aqui"
-          value={searchString}
-          onChangeText={value => setSearchString(value)}
-          returnKeyType="search"
-          onSubmitEditing={() => searchMovie()}
-        />
-        {searchString !== '' && (
-          <ClearSearchButton onPress={() => setSearchString('')}>
-            <ClearText>x</ClearText>
-          </ClearSearchButton>
-        )}
-      </InputWrapper>
+      <Header
+        searchString={searchString}
+        setSearchString={setSearchString}
+        searchMovie={searchMovie}
+      />
 
       <MoviesView
         contentContainerStyle={{flexGrow: 1, justifyContent: 'center'}}>

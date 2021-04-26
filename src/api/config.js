@@ -1,6 +1,5 @@
 import axios from 'axios';
 import env from '../../env';
-// import {TokenStorage} from '~/storage';
 
 const API = axios.create({
   baseURL: env.BASE_URL_CLI,

@@ -7,7 +7,7 @@ import {Text} from '../../UI';
 export const Wrapper = styled.View`
   flex: 1;
   padding-top: 20px;
-  background: rgba(0, 0, 0, 0.5);
+  background: rgba(0, 0, 0, 0.7);
   align-items: center;
   justify-content: flex-start;
   position: relative;

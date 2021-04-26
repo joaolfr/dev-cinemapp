@@ -17,7 +17,7 @@ export const InfoWrapper = styled.View`
   flex: 1;
   height: 100%;
   flex-direction: column;
-  justify-content: flex-start;
+  justify-content: space-evenly;
   align-items: flex-start;
 `;
 
